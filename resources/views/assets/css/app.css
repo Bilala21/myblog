@@ -1,0 +1,50 @@
+.app-menu {
+    height: 70px;
+}
+
+.form-style {
+    max-width: 400px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.app__forms {
+    background-image: url(../images/form-background-images.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 89.30vh;
+    overflow: hidden;
+}
+
+.fs-7 {
+    font-size: .8rem;
+}
+
+.fs-8 {
+    font-size: .6rem !important;
+}
+
+p {
+    font-size: .9rem !important;
+}
+.edit__post{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.c-pointer{
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 800px;
+    }
+}
